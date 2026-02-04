@@ -30,7 +30,7 @@ const CONFIG = {
         second: {
             text: "how much do you love harshu?",                          // For the love meter
             startText: "this much!",                                   // Text before the percentage
-            nextBtn: "but he loves you more ❤️"                                         // Text for the next button
+            nextBtn: "but i loves you more ❤️"                                         // Text for the next button
         },
         third: {
             text: "will you be my Valentine for.. ever!!? 🌹", // The big question!
@@ -49,8 +49,8 @@ const CONFIG = {
 
     // Messages that appear after they say "Yes!"
     celebration: {
-        title: "im so lucky to have you sakku! 🎉💝💖💝💓",
-        message: "ill always be yours, i love you more than myself!",
+        title: "im so lucky to have you! 🎉💝💖💝💓",
+        message: "ill always be yours, hugs and kisses",
         emojis: "🎁💖🤗💝💋❤️💕"  // These will bounce around
     },
 
