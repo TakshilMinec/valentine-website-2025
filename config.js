@@ -22,7 +22,7 @@ const CONFIG = {
     // Customize each question and its possible responses
     questions: {
         first: {
-            text: "do you like harshu?",                                    // First interaction
+            text: "do you like me?",                                    // First interaction
             yesBtn: "yes",                                             // Text for "Yes" button
             noBtn: "no",                                               // Text for "No" button
             secretAnswer: "i dont like harshu, i love him!! ❤️"           // Secret hover message
@@ -79,8 +79,8 @@ const CONFIG = {
         enabled: true,                     // Music feature is enabled
         autoplay: true,                    // Try to autoplay (note: some browsers may block this)
         musicUrl: "https://flat-purple-4aca1olplh.edgeone.app/Put%20Your%20Head%20On%20My%20Shoulder%20-%20Remastered.mp3", // Music streaming URL
-        startText: "🎵 Play Music",        // Button text to start music
-        stopText: "🔇 Stop Music",         // Button text to stop music
+        startText: "",        // Button text to start music
+        stopText: "",         // Button text to stop music
         volume: 0.5                        // Volume level (0.0 to 1.0)
     }
 };
