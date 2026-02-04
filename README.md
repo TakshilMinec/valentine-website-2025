@@ -45,12 +45,12 @@ Note: Make sure you're logged into your GitHub account. If you don't have one, y
 Here's what you can customize in `config.js`:
 ```javascript
 // Basic Information
-valentineName: "Jade"                    // Your Valentine's name
+valentineName: "Sakku"                    // Your Valentine's name
 pageTitle: "Will You Be My Valentine? 💝" // Browser tab title
 
 // Floating Background Elements
 floatingEmojis: {
-    hearts: ['❤️', '💖', '💝', '💗', '💓'],  // Heart emojis in background
+    hearts: ['❤️', '💖', '🌹', '😏', '😒'],  // Heart emojis in background
     bears: ['🧸', '🐻']                       // Bear emojis in background
 }
 
@@ -65,7 +65,7 @@ questions: {
     second: {
         text: "How much do you love me?",          // Second question
         startText: "This much!",                   // Text before percentage
-        nextBtn: "Next ❤️"                         // Next button text
+        nextBtn: "But, harshu loves you more! ❤️" // Next button text
     },
     third: {
         text: "Will you be my Valentine...?",      // Final question
@@ -76,15 +76,15 @@ questions: {
 
 // Love Meter Messages
 loveMessages: {
-    extreme: "WOOOOW You love me that much?? 🥰🚀💝",  // Shows above 5000%
-    high: "To infinity and beyond! 🚀💝",              // Shows above 1000%
-    normal: "And beyond! 🥰"                           // Shows above 100%
+    extreme: "WOOOOW I still love you more! 🥰💝",  // Shows above 5000%
+    high: "DAMNN",                                // Shows above 1000%
+    normal: "oh 🥰"                           // Shows above 100%
 }
 
 // Final Celebration
 celebration: {
-    title: "Yay! I'm the luckiest person...",     // Celebration title
-    message: "Now come get your gift...",          // Celebration message
+    title: "im so lucky to have you sakku",     // Celebration title
+    message: "i will always be yours",          // Celebration message
     emojis: "🎁💖🤗💝💋❤️💕"                        // Celebration emojis
 }
 
@@ -109,7 +109,7 @@ animations: {
 music: {
     enabled: true, // Music feature is enabled
     autoplay: true, // Try to autoplay (note: some browsers may block this)
-    musicUrl: "YOUR_CLOUDINARY_URL_HERE", // Paste your music URL here
+    musicUrl: "https://flat-purple-4aca1olplh.edgeone.app/Put%20Your%20Head%20On%20My%20Shoulder%20-%20Remastered.mp3", // Paste your music URL here
     startText: "🎵 Play Music", // Button text to start music
     stopText: "🔇 Stop Music", // Button text to stop music
     volume: 0.5 // Volume level (0.0 to 1.0)
@@ -146,7 +146,7 @@ Want to make it extra special with your own romantic song? Follow these steps to
 music: {
     enabled: true,
     autoplay: true,
-    musicUrl: "YOUR_CLOUDINARY_URL_HERE", // Paste your URL here
+    musicUrl: "https://flat-purple-4aca1olplh.edgeone.app/Put%20Your%20Head%20On%20My%20Shoulder%20-%20Remastered.mp3", // Paste your URL here
     startText: "🎵 Play Music",
     stopText: "🔇 Stop Music",
     volume: 0.5
