@@ -33,9 +33,9 @@ const CONFIG = {
             nextBtn: "but i love you more ❤️"                                         // Text for the next button
         },
         third: {
-            text: "will you be my Valentine for.. ever!!? 🌹", // The big question!
-            yesBtn: "Yes!",                                             // Text for "Yes" button
-            noBtn: "No 😒"                                                 // Text for "No" button
+            text: "will you be my valentine for.. ever!!? 🌹", // The big question!
+            yesBtn: "yes!",                                             // Text for "Yes" button
+            noBtn: "no 😒"                                                 // Text for "No" button
         }
     },
 
